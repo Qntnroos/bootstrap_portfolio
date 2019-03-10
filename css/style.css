@@ -1,0 +1,98 @@
+::-webkit-scrollbar{
+  display: none;
+}
+#one{
+   height: 100vh;
+ }
+#one{
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+  url('../img/bgi.png');
+  background-position: center center;
+}
+nav{
+  background-color: rgba(255,255,255,1);
+}
+nav .nav-item .nav-link:hover{
+  background-color: rgba(168,17,61,1);
+  color:white !important;
+  border-radius: 0.125rem;
+}
+#one .jumbotron{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.0) !important;
+  box-shadow: none;
+  border-radius: 0.2rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+#one .jumbotron h1{
+  text-shadow: 3px -5px black;
+}
+#one .jumbotron p{
+  background-color: rgba(168,17,61,1);
+  color:white;
+  padding: 0.7rem;
+  width: 60%;
+  margin-left:20%;
+  border-radius: 0.125rem;
+}
+#one .jumbotron2{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.0) !important;
+  border: none;
+  padding:0.05rem 1rem;
+}
+.angle {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding:0.3rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.angle:hover {
+  background-color: rgba(168,17,61,0.8);
+  color:white;
+}
+#six{
+  height: auto;
+}
+.contact-section{
+  padding-top: 10rem;
+}
+.contact-section .contact{
+  background-color: rgba(168,17,61,1);
+}
+.contact-section .contact .fab, .contact-section .contact .far, .contact-section .contact .fas{
+  color: white;
+}
+.btn-floating{
+  background-color: rgba(168,17,61,1);
+}
+footer{
+  width: 100%;
+  background-color: rgba(168,17,61,1);
+  color:white;
+  text-align: center;
+
+}
+footer p{
+  padding: 1rem 0;
+}
+@media screen and (max-width: 575.98px){
+  #one .jumbotron p{
+    width: 100%;
+    margin-left: 0;
+  }
+}
